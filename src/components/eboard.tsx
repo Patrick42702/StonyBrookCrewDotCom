@@ -8,8 +8,8 @@ const EBoard = () => {
   const members = [
     { name: "Harrison Bohrer", role: "President", major: "Environmental Studies", imgpath: "/assets/About Us/Harry.jpeg", boat: "The Kreitzer"},
     { name: "Patrick Muller", role: "Vice President", major: "Computer Science", imgpath: "/assets/About Us/patrick.jpeg", boat: "The Dudzick"},
-    { name: "Victoria Rocas", role: "Secretary", major: "Environmental Studies", imgpath: "/assets/About Us/Tori.jpeg", boat: "The Brett" },
-    { name: "Dominic Stanz", role: "Treasurer", major: "Biology & Economics", imgpath: "/assets/About Us/Dom.JPG", boat: "The Kreitzer" },
+    { name: "Aidan Esperance", role: "Secretary", major: "Health Science", imgpath: "/assets/About Us/AidanE.jpeg", boat: "The Dudzick" },
+    { name: "Julia Zhu", role: "Treasurer", major: "Biochemistry", imgpath: "/assets/About Us/JuliaZ.jpeg", boat: "The Gooch" },
     { name: "Alexis White", role: "Equipment Manager", major: "Civil Engineering", imgpath: "/assets/About Us/Alexis.jpeg", boat: "The Dudzick" },
     { name: "Taryn Wilcken", role: "Equipment Manager", major: "Applied Mathematics & Statistics", imgpath: "/assets/About Us/Taryn.jpeg", boat: "The Ekdahl" },
     { name: "Toby Smith", role: "Equipment Manager", major: "Applied Mathematics & Statistics", imgpath: "/assets/About Us/Toby.jpeg", boat: "The 2014" },
