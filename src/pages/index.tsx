@@ -20,7 +20,7 @@ export default function Home() {
               Stony Brook Rowing
             </h1>
           </div>
-          <hr className="my-5"/>
+          <hr className="my-5 border-red-800"/>
           <div className="mx-auto">
             <p className=" text-lg mb-5 font-light italic">Making waves since 1958</p>
           </div>
