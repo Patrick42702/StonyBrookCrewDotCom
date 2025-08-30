@@ -80,6 +80,9 @@ const Events = () => {
         {name: "LIU Scrimmage", date: new Date('April 12, 2025'), time: "",location: "Port Washington, NY", directions:"", desc: "We have been invited by Long Island University to return and participate/compete in a scrimmage together at their venue at Port Washington, NY.", calendar:""},
         {name: "NYS Collegiate Championships", date: new Date('April 19, 2025'), time: "",location: "Fish Creek, Saratoga Springs, NY", directions:"1460 Route 9P, Saratoga Springs NY 12866", desc: "Come experience our first main regatta of the Spring where we'll compete against many of New York State's best universities. ", calendar:""},
         {name: "Metropolitan Regatta", date: new Date('April 26, 2025'), time: "",location: "Glen Island Park,New Rochelle, NY", directions:"Glen Island Park, NY 10805", desc: "", calendar:"https://calendar.app.google/9jkTmUsnaCxfvWGP7"},
+    
+        {name: "First Practice - Fall 2025", date: new Date('September 3, 2025'), time:"6:00AM", location: "Multi-Activity Courts (MAC) - Walter J. Hawrys Campus Recreation Center", directions: "39 John S. Toll Drive, Stony Brook, NY 11794", desc:"Come join us for our first official practice of the Spring 2025 semester! Practice is open to all current undergraduate and graduate students of Stony Brook University. No experience is required so feel free to join if you're interested in joining, experienced, or just curious to try it out! You can find us at the Campus Rec Center downstairs in the MAC Courts at 6am. See you there!", calendar:""},
+    
     ];
 
     // Sorts Events into chronological order.

@@ -67,7 +67,7 @@ const CoachSection = () => {
                 </div>
                
                 <p className="text-xl font-light">
-                Our head coach is Tim Massi. The 2024-2025 season will be his second year as coach of Stony Brook Crew. 
+                Our head coach is Tim Massi. The 2025-2026 season will be his third year as coach of Stony Brook Crew. 
                 He is a Stony Brook University and SBU Crew alum and has a passion for rowing and leading. He has an enthusiasm for 
                 learning and guiding our team to achieve more success everyday and every practice.
                 </p>
