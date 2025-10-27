@@ -39,7 +39,7 @@ const Event = (event: {name: string; date: Date; time: string; location: string;
                 { /* Main Event Information */ }
                 <div className="flex flex-row w-full h-20 cursor-pointer" onClick={() => setExpand(!expand)}>
                     <div className="flex flex-col justify-center w-full h-full p-2 md:p-5 ">
-                        <h3 className="text-xl sm:text-2xl font-light text-white">{event.name}</h3>
+                        <h3 className="text-xl sm:text-2xl font-light text-white underline underline-offset-2">{event.name}</h3>
                         <div className="hidden sm:flex flex-row gap-5 text-sm md:text-md lg:text-lg text-[#ffffff] font-light">
                             <p className="min-w-fit w-[23%]">{days[event.date.getDay()]}, {months[event.date.getMonth()]} {event.date.getDate()}, {event.date.getFullYear()}</p>
                             <p className="">Location: {event.location}</p>
@@ -80,9 +80,12 @@ const Events = () => {
         {name: "LIU Scrimmage", date: new Date('April 12, 2025'), time: "",location: "Port Washington, NY", directions:"", desc: "We have been invited by Long Island University to return and participate/compete in a scrimmage together at their venue at Port Washington, NY.", calendar:""},
         {name: "NYS Collegiate Championships", date: new Date('April 19, 2025'), time: "",location: "Fish Creek, Saratoga Springs, NY", directions:"1460 Route 9P, Saratoga Springs NY 12866", desc: "Come experience our first main regatta of the Spring where we'll compete against many of New York State's best universities. ", calendar:""},
         {name: "Metropolitan Regatta", date: new Date('April 26, 2025'), time: "",location: "Glen Island Park,New Rochelle, NY", directions:"Glen Island Park, NY 10805", desc: "", calendar:"https://calendar.app.google/9jkTmUsnaCxfvWGP7"},
-    
+
         {name: "First Practice - Fall 2025", date: new Date('September 3, 2025'), time:"6:00AM", location: "Multi-Activity Courts (MAC) - Walter J. Hawrys Campus Recreation Center", directions: "39 John S. Toll Drive, Stony Brook, NY 11794", desc:"Come join us for our first official practice of the Fall 2025 semester! Practice is open to all current undergraduate and graduate students of Stony Brook University. No experience is required so feel free to join if you're interested in joining, experienced, or just curious to try it out! You can find us at the Campus Rec Center downstairs in the MAC Courts at 6am. See you there!", calendar:""},
-    
+        {name: "Head of the Fish Regatta", date: new Date('October 25, 2025'), time: "",location: "Fish Creek, Saratoga Springs, NY", directions:"1460 Route 9P, Saratoga Springs NY 12866", desc: "Come experience our first main regatta of the Fall where we'll compete against many of New York State's best universities. ", calendar:""},
+        {name: "Stony Brook Crew Alumni Day", date: new Date('November 2, 2025'), time:"9:00AM - 1:00PM", location: "Port Jefferson Yacht Club", directions:"2 Pass Way, Port Jefferson, NY 11777", desc: "Calling all Alumni of SBU Crew! Alumni Breakfast Day is being held on Sunday, November 2nd, 2025 at the Port Jefferson Yacht Club Clubhouse. Enjoy having a tasty meal while catching up with your fellow SBU Crew alumni! Save the date and RSVP by email now: sbu.crew.alumni@gmail.com. We can't wait to see you there!", calendar:""},
+        {name: "Frostbite Regatta", date: new Date('November 8, 2025'), time:"TDB", location: "Mercer Lake, West Windsor, NJ", directions: "334 S. Post Road, West Windsor, NJ", desc:"Come experience our first regatta of the weekend at the frostbite regatta in West Windsor, NJ.", calendar:""},
+        {name: "Braxton Memorial Regatta", date: new Date('November 9, 2025'), time:"TDB", location: "Mercer Lake, West Windsor, NJ", directions: "334 S. Post Road, West Windsor, NJ", desc:"Come experience our second regatta of the weekend at the frostbite regatta in West Windsor, NJ.", calendar:""},
     ];
 
     // Sorts Events into chronological order.

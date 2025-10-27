@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import { Lato, Lora } from "next/font/google";
+import { Lato, Lora, Barlow_Condensed } from "next/font/google";
 import type { AppProps } from "next/app";
 import { Analytics } from '@vercel/analytics/react';
 

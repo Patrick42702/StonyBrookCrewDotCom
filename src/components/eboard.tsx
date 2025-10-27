@@ -10,9 +10,9 @@ const EBoard = () => {
     { name: "Aidan Esperance", role: "Secretary", major: "Health Science", imgpath: "/assets/About Us/Aidan_E_Eboard.jpeg", boat: "The 2014" },
     { name: "Lucy Tomasic", role: "Secretary", major: "Biology", imgpath: "/assets/About Us/Lucy_T_Eboard.jpeg", boat: "The Carlisle" },
     { name: "Taryn Wilcken", role: "Treasurer", major: "Math, Applied Math & Statistics", imgpath: "/assets/About Us/Taryn_W_Eboard.jpeg", boat: "The Ekdahl" },
-    { name: "Sarah Kwong", role: "Equipment Manager", major: "Mechanical Engineering", imgpath: "/assets/About Us/Sarah_K_Eboard.jpeg", boat: "The Ekdahl" },
+    { name: "Sarah Kwong", role: "Equipment Manager", major: "Mechanical Engineering", imgpath: "/assets/About Us/Sarah_K_Eboard.jpeg", boat: "The Kreitzer" },
     { name: "Victoria Izquierdo", role: "Equipment Manager", major: "Multidisciplinary Studies", imgpath: "/assets/About Us/Victoria_I_Eboard.jpeg", boat: "The Dudzick" },
-    { name: "Victor Gallo", role: "Equipment Manager", major: "Health Science", imgpath: "/assets/About Us/Victor_G_Eboard.jpeg", boat: "The Kreitzer" },
+    { name: "Joshua Liu", role: "Equipment Manager", major: "Mathematics", imgpath: "/assets/About Us/Joshua_L_Eboard.jpeg", boat: "The 2014" },
     { name: "Samuel Tselnik", role: "Fundraising Chair & Event Coordinator", major: "Computer Science", imgpath: "/assets/About Us/Samuel_T_Eboard.jpeg", boat: "The Gooch" },
 
   ];
